@@ -9,10 +9,30 @@
 <body>
 
     <h1>Formulário 03 - Datas e números</h1>
-        <!--Área do Formulário-->
-        <form action="" method="get">
-        <label for="idnome">Nome</label>
-        <input type="text" name="nome" id="idnome" required maxlength="15" autocomplete="username" placeholder="Nome de Usuário">
+        <div>
+            <!--Área do Formulário-->
+            <form action="" method="get">
+            <label for="idnome">Nome</label>
+            <input type="text" name="nome" id="idnome" required maxlength="15" autocomplete="username" placeholder="Nome de Usuário">
+        </div>
+
+        
+        
+
+        <div>
+            <label for="idmedia">Média</label>
+            <input type="number" name="Media" id="idmedia" placeholder="Números" min="0" max="25" step="0.5" required>
+        </div>
+
+        <div>
+            <laebel for="idbimestre">Bimestre:</laebel>
+            <input type="month" name="Bimestre" id="idbimestre" required value="2025-10">
+        </div>
+
+        <div>
+            <label for="iddia">Day da Prova</label>
+            <input type="date" name="dia" id="iddia" value="2008-12-03">
+        </div>
 
 
         <!--Área dos Botões-->

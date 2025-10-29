@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style 02</title>
+
+    <style>
+        header {
+            background-color: antiquewhite;
+        }
+
+        p {
+            color: black;
+        }
+
+        body {
+            background-color: orange;
+        }
+
+        span {
+            background-color: yellow;
+            color: red;
+        }
+
+        main {
+            background-color: blue;
+        }
+
+        footer {
+            color: crimson;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>CSS Interno</h1>
+    </header>
+
+    <main>
+        <p>Um estilo interno é aquyel eque fica configurado dentro da área do &lt;head> do seu documento.</p>
+        
+        <p>A grande <span style="background-color: yellow; color: red;">vantagem</span> desse modelo em relação ao modelo inline é que podemos escrever uma configuração única paratodos os elementos da mesma família. Por exmplo, todos os parágrafos deste documentop estão com a emsma configuração de cor, e eu só preciso escrever isso uma vez.</p>
+
+        <p>A grande <span style="background-color: yellow; color: red;">desvantagem</span> desse modelo em relação à última estrutura que veremos é que no CSS externo (a estrutura do prócimo exercício) é que o estilo não pode ser reaproveitado por outras páginas.</p>
+
+        <p>IMPORTANTE: Você pode misturar CSS inline com CSS interno em um mesmo documento sem problemas! Vamos fazer um pequeno <span style="background-color: yellow; color: black;">TESTE!</span> É desse processo de aplicarmos os estilos em diferentes níveis que surge os conceitos de "<span style="font-style: italic;">Folhas de estilo em cascata</span>".</p>
+    </main>
+    
+    <footer>
+        <a href="../ex014/ex014.html" rel="prev"><button>Voltar</button></a>
+    </footer>
+</body>
+</html>
